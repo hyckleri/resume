@@ -75,7 +75,7 @@
   h2 {
     display: flex;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 30px;
 
     &::before {
       content: '';
@@ -88,20 +88,22 @@
   }
 
   h3 {
-    margin: 30px 0 15px;
+    margin: 15px 0 15px;
     border-bottom: 1px solid #e8e8e8;
   }
 
   p {
     margin: 10px 0;
-    color: #888;
+    color: #4d4d4d;
+    text-align: justify;
   }
 
   ul {
     margin: 10px 0;
     li {
       padding-left: 1em;
-      color: #888;
+      color: #4d4d4d;
+      text-align: justify;
 
       &::before {
         content: '-';
